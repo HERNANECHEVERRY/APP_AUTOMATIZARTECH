@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Bot, Cpu, Zap, Shield, Menu, X, ArrowRight, Github } from 'lucide-react';
+import { Bot, Cpu, Zap, Shield, Menu, X, ArrowRight } from 'lucide-react';
 import { supabase } from './lib/supabase';
 
 function App() {
@@ -141,7 +141,7 @@ function App() {
           </div>
           <p className="text-gray-500 text-sm">© 2026 AutomatizarTech. Todos los derechos reservados.</p>
           <div className="flex gap-6">
-            <a href="#" className="text-gray-500 hover:text-white"><Github className="w-5 h-5" /></a>
+            <a href="#" className="text-gray-500 hover:text-white"><Bot className="w-5 h-5" /></a>
           </div>
         </div>
       </footer>
